@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Roblox Blog</title>
+    <link rel=”icon” type=“image/x-icon” href =“icon.ico”>
+    <style>
+    @font-face {
+        font-family: Broadway;
+        src: url(fonts/Broadway.ttf);
+    }
+    @font-face {
+        font-family: Deli;
+        src: url(fonts/Deli.ttf);
+    }
+    @font-face {
+        font-family: Muffin;
+        src: url(fonts/Muffin.ttf);
+    }
+    .menu {
+        background-image: url(images/header.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        background-position: center center;
+        text-align: right; 
+        font-size: 0;
+        
+    }
+    .home {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        font-size: 35px;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        color: rgb(194, 133, 3);
+        transition-duration: 00.4s;
+        background-image: url(images/home.jpeg);
+        background-size: cover;
+        border-radius: 12px;
+        height: 80px;
+        width: 120px;
+        background-position: center center;
+        border-width:1px ;
+        border-color: black;
+        border-style: solid;
+        }
+    .features {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        font-size: 35px;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        color: white;
+        transition-duration: 00.4s;
+        background-image: url(images/features.jpeg);
+        background-size: cover;
+        border-radius: 12px;
+        height: 80px;
+        width: 130px;
+        border-width:1px ;
+        border-color: black;
+        border-style: solid;
+    }
+    .games {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        font-size: 35px;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        color: white;
+        transition-duration: 00.4s;
+        background-image: url(images/games.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        height: 80px;
+        width: 120px;
+        border-width:1px ;
+        border-color: black;
+        border-style: solid;
+    }
+    .experience {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+        margin-right: 40px;
+        font-size: 35px;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        color: white;
+        transition-duration: 00.4s;
+        background-image: url(images/exp.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        background-position: center center;
+        height: 80px;
+        width: 160px;
+        border-width:1px ;
+        border-color: black;
+        border-style: solid;
+    }
+
+    .about {
+        font-family: "Deli";
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .intro {
+        font-family: "Muffin";
+        font-size: 20px;
+        color: rgb(125, 106, 233);
+        margin: 100px;
+        border: 8px;
+        border-radius: 20px;
+        border-style:outset;
+        border-color: rgb(51, 89, 170);
+        text-align: center;
+        background-image: url("images/galaxy.jpg");
+    }
+
+    .home:hover{
+        color:rgb(107, 70, 15);
+        transform: translateY(-5px);
+    }
+    .features:hover{
+        color:rgba(255, 197, 149, 0.966);
+        transform: translateY(-5px);
+    }
+    .games:hover{
+        color:rgb(175, 32, 92);
+        transform: translateY(-5px);
+    }
+    .experience:hover{
+        color:rgb(90, 39, 5);
+        transform: translateY(-5px);
+    }
+    .intro .pic{
+        display: inline-block;
+        margin: 30px;
+        width: 30px;
+    }
+    .intro .text{
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+        margin-left: 80px;
+        transform: translateY(-50px);
+    }
+    .us{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .story{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="menu">
+        <a href="home.html"><div class="home"><p>Home</p></div></a>
+        <a href="features.html"><div class="features"><p>Features</p></div></a>
+        <a href="games.html"><div class="games"><p >Games</p></div></a>
+        <a href="our-experience.html"><div class="experience"><p>Experience</p></div></a>
+    </div>
+
+    <p class="about">・──・˚ ꒰ About Us ꒱ ˚・──・</p> <p  class="about" style="font-size:25px;"> And our short story~</p>
+
+    <div class="intro">
+        <section class="us">
+            <div class="pic">
+                <img src="images/uwu.png" width="120px">
+            </div>
+            <div class="text">
+                <p>Hello! We're Rynn and Joan! We're typical students who love to play Roblox. And here's how we got here:</p>
+            </div>
+        </section>
+        
+        <section class="story">
+        <div class="text" style="transform: translateY(0);">
+            <p>5 years ago, a friend of ours suggested us to install Roblox. Rynn was hesitant.
+                 Our mother agreed, but said that we had wait until August. Joan was so exited, months passed like minutes and August soon arrived.
+                But our mother rejected us. We were good kids, so we obeyed.
+                A year later, we couldn't wait any longer. Joan secretly signed up and we both ended up here :) </p>
+        </div>
+        <div class="pic">
+        <img src="images/owo.png" width="120px">
+        </div>
+    </section>
+    </div>
+
+</body>
+</html>
